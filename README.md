@@ -26,7 +26,6 @@ This repository is for simulating actions of turtlebot with behavior trees
 ```
 ```
   ros2 run btcpp_ros2_samples sleep_server
-
 ```
 
 - To start simulation
@@ -41,10 +40,10 @@ This repository is for simulating actions of turtlebot with behavior trees
 
 ## How to visualize the nodes in groot2
 - Groot monitor mode screen
-<img src="https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/1.png"  width="400" height="300" />
+![1](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/1.png?raw=true)
 
 - Click on button right next to Executor server for starting monitor mode when behavior tree is running
-<img src="https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/2.png"  width="400" height="300" />
+![2](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/2.png?raw=true)
 
 - Screen after behavior tree run is completed
-<img src="https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/3.png"  width="400" height="300" />
+![3](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/3.png?raw=true)
