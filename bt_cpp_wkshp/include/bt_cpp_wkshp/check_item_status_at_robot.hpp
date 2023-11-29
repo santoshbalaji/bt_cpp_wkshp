@@ -14,6 +14,8 @@ using PortsList = BT::PortsList;
 namespace bt_cpp_wkshp
 {
 
+// To mimic behavior to check the item is loaded to robot conveyor
+// Simple action node which randomly returns success or failure
 class CheckItemStatusAtRobot : public SyncActionNode
 {
   public:

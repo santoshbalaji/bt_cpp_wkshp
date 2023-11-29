@@ -14,6 +14,8 @@ using PortsList = BT::PortsList;
 namespace bt_cpp_wkshp
 {
 
+// To mimic operation of robot conveyor
+// Asynchronous node which sends success after some period of time
 class OperateRobotConveyor : public StatefulActionNode
 {
   public:

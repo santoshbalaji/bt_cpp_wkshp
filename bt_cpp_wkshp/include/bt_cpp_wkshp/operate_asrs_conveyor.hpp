@@ -7,6 +7,8 @@
 namespace bt_cpp_wkshp
 {
 
+// To mimic operation of asrs conveyor
+// ROS action node with action client depending on external action server
 class OperateASRSConveyor: public BT::RosActionNode<
   btcpp_ros2_interfaces::action::Sleep>
 {
@@ -19,7 +21,8 @@ public:
 
   static BT::PortsList providedPorts()
   {
-    return providedBasicPorts({BT::InputPort<unsigned>("msec")});
+    return providedBasicPorts(
+      {BT::InputPort<unsigned>("msec"), BT::InputPort<std::string>("state")});
   }
 
   bool setGoal(Goal& goal) override;

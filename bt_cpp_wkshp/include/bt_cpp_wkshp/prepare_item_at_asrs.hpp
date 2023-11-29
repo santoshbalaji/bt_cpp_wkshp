@@ -7,6 +7,8 @@
 namespace bt_cpp_wkshp
 {
 
+// To mimic item prepartion at asrs
+// ROS action node which subscribes to external system
 class PrepareItemAtASRS: public BT::RosTopicSubNode<std_msgs::msg::String>
 {
 

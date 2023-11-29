@@ -14,6 +14,8 @@ using PortsList = BT::PortsList;
 namespace bt_cpp_wkshp
 {
 
+// To mimic notification behavior when system is failed
+// Simple action node which always returns success
 class Alarm : public SyncActionNode
 {
   public:

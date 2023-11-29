@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>bt_cpp_wkshp</name>
-  <version>0.0.0</version>
+  <version>0.1.0</version>
   <description>package to showcase behavior tree library with ros2 in workshop</description>
   <maintainer email="selvarajs@artc.a-star.edu.sg">santosh balaji selvaraj</maintainer>
   <license>TODO: License declaration</license>
@@ -10,6 +10,10 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>behaviortree_cpp</depend>
+  <depend>behaviortree_ros2</depend>
+  <depend>std_msgs</depend>
+  <depend>action_tutorials_interfaces</depend>
+  <depend>btcpp_ros2_interfaces</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

@@ -14,6 +14,8 @@ using PortsList = BT::PortsList;
 namespace bt_cpp_wkshp
 {
 
+// To mimic movement of robot to a given pose
+// Asynchronous node which sends success after some period of time
 class MoveRobotToPose : public StatefulActionNode
 {
   public:

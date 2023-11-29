@@ -31,7 +31,7 @@ static const char* xml_text = R"(
           <PrepareItemAtASRS topic_name="prepare_item" item_code="1213"/>
         </Sequence>
         <Sequence>
-          <OperateASRSConveyor action_name="/sleep_service" msec="2000" />
+          <OperateASRSConveyor action_name="/sleep_service" msec="2000" state="stop" />
           <OperateRobotConveyor state="start" />
         </Sequence>
         <Fallback>
@@ -39,6 +39,7 @@ static const char* xml_text = R"(
           <Alarm />
         </Fallback>
         <Sequence>
+          <OperateASRSConveyor action_name="/sleep_service" msec="2000" state="stop" />
           <OperateRobotConveyor state="stop" />
         </Sequence>
       </Sequence>
