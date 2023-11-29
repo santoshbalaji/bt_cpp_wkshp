@@ -40,10 +40,10 @@ This repository is for simulating actions of turtlebot with behavior trees
 
 ## How to visualize the nodes in groot2
 - Groot monitor mode screen
-![1](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/1.png?raw=true)
+![1](docs/1.png)
 
 - Click on button right next to Executor server for starting monitor mode when behavior tree is running
-![2](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/2.png?raw=true)
+![2](docs/2.png)
 
 - Screen after behavior tree run is completed
-![3](https://github.com/santoshbalaji/bt_cpp_wkshp/blob/master/docs/3.png?raw=true)
+![3](docs/3.png)
