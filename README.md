@@ -30,7 +30,7 @@ This repository is for simulating actions of turtlebot with behavior trees
 
 - To start simulation
 ```
-  ros2 run bt_cpp_wkshp ros2 run bt_cpp_wkshp start_tree
+  ros2 run bt_cpp_wkshp start_tree
 ```
 
 ## Download groot2
